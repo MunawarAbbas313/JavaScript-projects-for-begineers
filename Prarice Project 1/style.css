@@ -1,0 +1,51 @@
+div{
+    text-align: center;
+}
+div h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    animation: texto 3s 1s ease-in infinite;
+    text-shadow: 4px 4px 3px pink;
+    padding-bottom: 44px;
+}
+@keyframes texto {
+     0%{
+        color: blueviolet;
+     }
+     50%{
+        color: maroon;
+     }
+     100%{
+        color: rgb(27, 139, 139);
+     }
+}
+div > span{
+    padding: 40px;
+}
+.button{
+    border: 2px solid #eee;
+    padding: 20px;
+    cursor: pointer;
+   
+}
+#grey
+{
+    background-color: grey;
+}
+#black{
+    color: wheat;
+    background-color: black;
+}
+#blue{
+    background-color: blue;
+}
+#green
+{
+    background-color: green;
+}
+h2{
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 4px dotted palevioletred;
+
+}

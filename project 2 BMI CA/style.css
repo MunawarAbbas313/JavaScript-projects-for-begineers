@@ -1,0 +1,81 @@
+.container{
+    border: 4px dotted rgb(209, 174, 121);
+    text-align: center;
+    border-radius: 25px;
+    background-color: bisque;
+    width: 50%;
+    height: 60%;
+     margin-top: 30px;
+    transform: translateX(300px);
+    padding: 50px;
+}
+.container h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px dotted rgb(47, 71, 255);
+    padding: 20px;
+    animation: texto 03s 0.4s  infinite ease-in-out;
+    text-shadow: 2px 4px pink;
+}
+@keyframes texto{
+    0%{
+        color: rgb(255, 144, 47);
+    }
+    20%{
+        color: rgb(243, 67, 13);
+    }
+    40%{
+        color: rgb(47, 71, 255);
+    }
+    60%{
+        color: rgb(34, 192, 13);
+    }
+    80%{
+        color: rgb(242, 21, 117);
+    }
+    100%{
+        color: rgb(150, 10, 243);
+    }
+}
+p > label{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    padding: 20px;
+}
+p> input{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+button{
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b4d90e;
+    cursor: pointer;
+    color: rgb(26, 21, 21);
+    font-size: 19px;
+}
+.res{
+    padding: 30px;
+}
+.info > p{
+    font-size: 19px;
+    padding: 6px;
+}
+.bts{
+    padding-top: 20px;
+}
+span{
+    border: 3px solid blue;
+    padding: 10px;
+border-radius: 10px;
+background-color: aquamarine;
+cursor: pointer;
+color: black;
+
+}

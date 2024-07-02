@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 7px 5px 2px greenyellow;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+.wrapper > h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgb(204, 183, 66);
+}
+h1 > span{
+    color: aqua;
+    animation: texto 2s 1s infinite;
+}
+@keyframes texto {
+    0%{
+        color: yellow;
+    }
+    30%{
+        color: purple;
+    }
+    60%{
+        color: red;
+    }
+    100%{
+        color: greenyellow;
+    }
+}
+.wrapper p
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper > p > span{
+    color: aqua;
+    animation: texto2 2s 1s infinite;
+   
+}
+@keyframes texto2 {
+    0%{
+        color: rgb(172, 172, 23);
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    30%{
+        color: rgb(29, 211, 50);
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    60%{
+        color: rgb(56, 121, 241);
+    }
+    100%{
+        color: rgb(180, 53, 137);
+        font-size: 25px;
+        font-weight: bolder;
+    }
+}
+#guess{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine;
+    font-weight: bolder;
+    
+    
+}
+.from
+{
+    padding: 20px;
+    
+}
+
+.guessfield{
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 23px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
+.submi{
+    border: none;
+    outline: none;
+    color: black;
+    font-style: 10px;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.submi:hover{
+    background-color: aquamarine;
+    transition: all 0.4s ease-in;
+}
+.results > p
+
+{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.results > p > span{
+    font-size: 20px;
+    color: aqua;
+}

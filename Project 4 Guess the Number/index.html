@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+    <div class="wrapper">
+        <h1>Number Guessing <span>Game</span></h1>
+        <br>
+        <p>Guess the Number between <span> 1 - 100</span></p>
+        <p> You have Only <span id="Lastresults"> 10 </span>Attempts</p>
+    </div>
+    <form  class="from">
+        <label for="guessNum" id="guess"> Guess The Number </label>
+        <br>
+        <input type="text" placeholder= "1 - 100"class="guessfield" id="guessfield">
+        <br>
+        <input type="submit" id="sub" class="submi">
+    </form>
+    <div class="results">
+        <p>Pervious Numbers<span class="guesses"></span></p>
+        <p>Remaning Try : <span class="Lastresult">10</span></p>
+        <div class="lowOrhi"></div>
+        <p class="p"></p>
+    </div>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>

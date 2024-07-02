@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+.my-div{
+    text-align: center;
+    padding-top: 40px;
+}
+h2{
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 2px rgb(210, 197, 185);
+    font-size: 50px;
+}
+h2> span{
+    color: aqua;
+    animation: texto 2s 1s  infinite ease-in;
+}
+@keyframes texto {
+    0%{
+        color: aquamarine;
+    }
+    20%{
+        color: blueviolet;
+    }
+    40%{
+        color: brown;
+    }
+    80%{
+        color: red;
+    }
+    100%{
+        transform: translateX(-30px);
+        color: gold;
+    }
+}
+
+.bar{
+    
+    padding: 30px;
+    background-color: antiquewhite;
+    width: 10%;
+    font-size: 25px;
+    font-weight: bolder;
+    animation: bodo 2s 1s infinite ease-out;
+}
+@keyframes bodo {
+    0%{
+        border: 2px solid yellow;
+        background-color: aquamarine;
+        -webkit-transform: rotate(360deg);
+    }
+    50%{
+        border: 2px solid peru;
+        background-color: grey;
+        
+    }
+    
+}

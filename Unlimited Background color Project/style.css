@@ -1,0 +1,53 @@
+.conatiner
+{
+    text-align: center;
+    padding: 20px;
+}
+.conatiner > h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 64, 241);
+    font-weight: bolder;
+
+}
+h1 > span
+{
+    color: aqua;
+    font-weight: bolder;
+}
+
+h2{
+    color: rgb(255, 50, 50);
+}
+h2 > span{
+    color: violet;
+    font-weight: bolder;
+}
+button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 4px aquamarine;
+}
+#start{
+    background-color: rgba(172, 255, 47, 0.643);
+    transform: translateX(-14px);
+    font-weight: bolder;
+}
+#stop
+{
+    background-color: rgba(240, 23, 23, 0.323);
+    transform: translateX(14px);
+    font-weight: bolder;
+}
+
+#start:hover{
+    background-color: green;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+#stop:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}

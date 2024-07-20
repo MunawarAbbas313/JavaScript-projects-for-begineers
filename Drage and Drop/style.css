@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black
+
+}
+.contaiber
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.list{
+    padding: 10px;
+    margin: 20px;
+    background-color: red;
+    text-align: center;
+    width: 200px;
+    cursor: grab;
+}
+.list img{
+    width: 18px;
+    transform: translateX(-60px);
+    
+}
+#left , #right{
+    min-height: 300px;
+    width: 300px;
+    margin: 20px;
+    border: 2px dashed darkgoldenrod;
+    text-align: center;
+    background-color: rgb(105, 92, 77);
+}
+
+@media (min-width: 200px) and (max-width: 430px) {
+    .contaiber {
+        flex-direction: column;
+    }
+    .list {
+        padding: 10px;
+        margin: 20px;
+        background-color: red;
+        text-align: center;
+        width: 200px;
+    }
+}

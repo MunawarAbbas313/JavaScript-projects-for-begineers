@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gametitle{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+
+}
+span{
+    color: aqua;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2vmin;
+}
+.clk{
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 10vmin;
+    font-weight: 500;
+    box-shadow: 0 0 0.5rem rgb(16, 15, 11);
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    color: rgb(7, 247, 255);
+}
+.clk:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    transition: all 0.6s ease-in; 
+}
+.rbtn{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.554);
+    color: white;
+}
+.rbtn:hover{
+    cursor: pointer;
+    background-color: rgb(141, 22, 22);
+    transition: all 0.6s ease-in;
+   
+}
+.btns{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8vmin;
+}
+.newgame{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: rgba(0, 255, 110, 0.575);
+    color: white;
+    display: none;
+    
+   
+}
+.newgame:hover{
+    cursor: pointer;
+    background-color: rgb(12, 122, 41);
+    transition: all 0.6s ease-in;
+}
+p{
+    font-size: 25px;
+    color: azure;
+    font-weight: 550;
+    font-family:sans-serif;
+    color: #1C1C1C;
+    text-align: center;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: beige;
+    font-family: sans-serif;
+    gap: 40px;
+}

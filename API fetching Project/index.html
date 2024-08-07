@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+   
+   
+</head>
+<body >
+    <div class="containerr ">
+        <h1 class="Head">Currency <span class="headspan">Converter</span></h1>
+        <form >
+            <div class="amountBox">
+                <label for="amount" class="fromalabel">Amount:</label>
+                <br>
+                <input type="text" value="100" class="AmountInput">
+            </div>
+            <div class="dropDown">
+                <div class="from">
+                    <p class="slectpara">FROM</p>
+                    <div class="fromselct">
+                        <img src="https://flagsapi.com/US/flat/64.png" class="flagImg">
+                        <select name="From" class="slectfrom">
+                            <!-- <option value="USD" class="fromopt">USD</option>
+                            <option value="PKR" class="fromopt">PKR</option>
+                            <option value="INR" class="fromopt">INR</option>
+                            <option value="EUR" class="fromopt">EUR</option>
+                            <option value="AUD" class="fromopt">AUD</option>
+                            <option value="POUND" class="fromopt">POUNDS</option> -->
+                        </select>
+                    </div>
+                </div>
+                <div class="iconImg">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/comparison-9620773-7809748.png?f=webp&w=256" alt="" class="iconIng">
+                    
+                </div>
+                <div class="to">
+                    <p class="slectpara">TO</p>
+                    <div class="fromselcttp">
+                        <img src="https://flagsapi.com/PK/flat/64.png" class="flagImg">
+                        <select name="to" class="slectfrom">
+                            <!-- <option value="USD" class="fromopt">USD</option>
+                            <option value="PKR" class="fromopt">PKR</option>
+                            <option value="INR" class="fromopt">INR</option>
+                            <option value="EUR" class="fromopt">EUR</option>
+                            <option value="AUD" class="fromopt">AUD</option>
+                            <option value="POUND" class="fromopt">POUNDS</option> -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <span class="msgspan">1 USD = 275 PKR</span>
+            </div>
+           <div class="btnn"> <button class="mybtn">Get Exchange Rate</button></div>
+        </form>
+    </div>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
